@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>COderPro - heaven for programmers</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CoderPro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html"
+                            onclick="window.open(this.href, 'myTab'); return false;">About Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.w3schools.com/js/" target="_blank">Java
+                                    Script</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#" target="_blank">Tutorials</a></li>
+                            <li><a class="dropdown-item" href="#" target="_blank">Websites</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" target="_blank">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container d-flex flex-column align-items-center  my-4 ">
+        <h1 class="mb-4">ABOUT US</h1>
+        <div class="about mx-5 ">
+            <div class="row featurette d-flex align-items-center justify-content-center">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">Its all started with CoderPro.
+                    </h2>
+                    <p class="lead"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illum cupiditate
+                        fugit asperiores neque deleniti optio, odio harum exercitationem. Officia perferendis in
+                        voluptates
+                        minima tenetur, modi mollitia nobis maiores itaque?</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="about-images/about1.avif"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-3 mb-md-0"
+                        height="500" width="500" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="row featurette d-flex align-items-center justify-content-center">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">We started CoderPro in 1990.
+                    </h2>
+                    <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
+                        really
+                        intended to be actually read, simply here to give you a better view of what this would look like
+                        with some actual content. Your content.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="about-images/about2.avif"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-3 mb-md-0"
+                        height="500" width="500" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="row featurette d-flex align-items-center justify-content-center">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">To encourage Technology and Programmers.
+                    </h2>
+                    <p class="lead"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis illum cupiditate
+                        fugit asperiores neque deleniti optio, odio harum exercitationem. Officia perferendis in
+                        voluptates
+                        minima tenetur, modi mollitia nobis maiores itaque?</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="about-images/about3.avif"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-3 mb-md-0"
+                        height="500" width="500" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+            <p>CoderPro Blog for Coding, Technology and Trends <a href="https://getbootstrap.com/" _blank>Bootstrap</a>
+                by <a href="https://x.com/mdo">@CoderPro</a>.</p>
+            <p class="mb-0"> <a href="#">Back to top</a> </p>
+        </footer>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+    crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const imgs = document.querySelectorAll(".featurette img");
+        imgs.forEach((img) => {
+            img.classList.add("show");
+        });
+    });
+</script>
+
+</html>
